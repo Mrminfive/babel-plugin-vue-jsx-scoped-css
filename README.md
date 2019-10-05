@@ -29,7 +29,7 @@ and in your babelrc add
 ```json
 {
     "presets": ["@vue/babel-preset-jsx"],
-    "plugins": ["babel-plugin-react-scoped-css"]
+    "plugins": ["babel-plugin-vue-jsx-scoped-css"]
 }
 ```
 
@@ -39,7 +39,7 @@ also note that you can define your own matching rule like this
 {
     "plugins": [
         [
-            "babel-plugin-react-scoped-css",
+            "babel-plugin-vue-jsx-scoped-css",
             {
                 "include": ".local.(sa|sc|c)ss$"
             }
