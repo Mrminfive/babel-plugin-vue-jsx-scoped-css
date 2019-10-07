@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-vue-jsx-scoped-css",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/index.js",
   "description": ":hammer: CSS encapsulation solution for Vue JSX",
   "repository": "git@github.com:Mrminfive/babel-plugin-vue-jsx-scoped-css.git",
