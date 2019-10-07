@@ -1,0 +1,14 @@
+.test-comp {
+    &__title {
+        margin: 40px 0 0;
+    }
+
+    &__links {
+    }
+
+    &__link {
+        a {
+            color: #42b983;
+        }
+    }
+}

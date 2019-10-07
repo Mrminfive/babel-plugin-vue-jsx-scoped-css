@@ -1,0 +1,6 @@
+tsconfig.json
+typings
+src/
+example/
+test/
+.vscode/

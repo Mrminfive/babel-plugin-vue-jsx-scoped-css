@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`babel-plugin-vue-jsx-scoped-css vue.tsx 1`] = `
+"import \\"./index.scoped.css?scopeId=a41f91ce\\";
+import Vue from 'vue'; // @ts-ignore
+
+import Link from './Link.vue';
+export default Vue.extend({
+  name: 'test-vue2',
+
+  render() {
+    const h = arguments[0];
+    return h(\\"nav\\", {
+      \\"class\\": 'pr-header-menu',
+      \\"attrs\\": {
+        \\"data-v-a41f91ce\\": \\"\\"
+      }
+    }, [h(\\"ul\\", {
+      \\"class\\": 'menu__wrap',
+      \\"attrs\\": {
+        \\"data-v-a41f91ce\\": \\"\\"
+      }
+    }, [this.list.map(item => h(\\"li\\", {
+      \\"class\\": 'menu__item',
+      \\"attrs\\": {
+        \\"data-v-a41f91ce\\": \\"\\"
+      }
+    }, [h(Link, {
+      \\"attrs\\": {
+        \\"href\\": item.link,
+        \\"data-v-a41f91ce\\": \\"\\"
+      }
+    }, [item.label])]))])]);
+  }
+
+});"
+`;
